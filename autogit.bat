@@ -1,4 +1,4 @@
-@echo off
+
 set %path%=%path%;C:\Program Files\Git\bin\
 cd C:\C\scripts\
 git add .
