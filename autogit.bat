@@ -1,6 +1,8 @@
 
 set %path%=%path%;C:\Program Files\Git\bin\
-cd C:\C\scripts\
+for /R %%s in (.) do (
+cd %%s
 git add .
 git commit -m 'auto_commit'
 git push origin master
+)
